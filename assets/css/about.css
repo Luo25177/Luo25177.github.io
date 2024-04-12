@@ -64,8 +64,8 @@ body,
     margin: 0;
     overflow-y: hidden;
     overflow-x: auto;
-    min-width: 1920px;
-    min-height: 937px;
+    /* min-width: 1920px;
+    min-height: 937px; */
     font-family: "OPPOSans-L"
 }
 
