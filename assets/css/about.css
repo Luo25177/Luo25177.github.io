@@ -64,8 +64,8 @@ body,
     margin: 0;
     overflow-y: hidden;
     overflow-x: auto;
-    /* min-width: 1920px;
-    min-height: 937px; */
+    min-width: 1920px;
+    min-height: 937px;
     font-family: "OPPOSans-L"
 }
 
@@ -73,15 +73,15 @@ body,
     position: absolute;
     top: 0;
     width: 100%;
-    height: auto;
+    height: 100vh;
     transition: all .3s ease;
-    /* min-width: 1920px;
-    min-height: 937px */
+    min-width: 1920px;
+    min-height: 937px
 }
 
 .section {
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     justify-content: center;
     align-items: center;
     position: relative;
