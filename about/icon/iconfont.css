@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1713009012501') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weixin:before {
+  content: "\f0106";
+}
+
+.icon-github:before {
+  content: "\e85a";
+}
+
+.icon-CSS:before {
+  content: "\e705";
+}
+
+.icon-stmchengxukaifa:before {
+  content: "\e736";
+}
+
+.icon-AutoCAD:before {
+  content: "\e74a";
+}
+
+.icon-QQ:before {
+  content: "\e882";
+}
+
+.icon-robot:before {
+  content: "\e60e";
+}
+
+.icon-controller:before {
+  content: "\e65c";
+}
+
+.icon-robot1:before {
+  content: "\e66e";
+}
+
+.icon-github1:before {
+  content: "\e651";
+}
+
+.icon-OPenCV:before {
+  content: "\e70f";
+}
+
+.icon-Cyuyan-copy:before {
+  content: "\e512";
+}
+
+.icon-linux:before {
+  content: "\e80b";
+}
+
+.icon-html:before {
+  content: "\e632";
+}
+
+.icon-java:before {
+  content: "\e639";
+}
+
+.icon-cmake:before {
+  content: "\e62c";
+}
+
+.icon-cpp:before {
+  content: "\e638";
+}
+
+.icon-csharp:before {
+  content: "\e63a";
+}
+
+.icon-git:before {
+  content: "\e658";
+}
+
+.icon-makefile:before {
+  content: "\e673";
+}
+
+.icon-matlab:before {
+  content: "\e674";
+}
+
+.icon-gitee-fill-round:before {
+  content: "\e686";
+}
+
+.icon-vue3:before {
+  content: "\e605";
+}
+
+.icon-JavaScriptdaima:before {
+  content: "\e7bf";
+}
+
+.icon-solidworks:before {
+  content: "\e501";
+}
+
+.icon-gitee:before {
+  content: "\e616";
+}
+
+.icon-yolo:before {
+  content: "\e506";
+}
+
+.icon-python:before {
+  content: "\e767";
+}
+
+.icon-Mysql:before {
+  content: "\e788";
+}
+
+.icon-unity:before {
+  content: "\e6ec";
+}
+
+.icon-zidongkongzhi:before {
+  content: "\e521";
+}
+

@@ -1,267 +1,658 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN" data-theme="light">
 
 <head>
-  <title>无风之地</title>
-  <meta name="description" content="陌上人如玉 公子世无双" />
-  <meta charset="utf-8" />
-  <meta http-equiv="content-language" content="zh-cn" />
-  <link rel="shortcut icon" href="../assets/images/logo.png" />
-  <meta name="viewport"
-    content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
-  <link rel="stylesheet" href="../assets/css/about.css">
-  <link rel="stylesheet" href="../assets/images/font-icon/iconfont.css">
+  <meta charset="UTF-8">
+  <meta name="referrer" content="origin-when-cross-origin">
+  <meta name="color-scheme" content="light dark">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>关于我 | Guo Le's Blog</title>
+  <meta name="copyright" content="夜的第八章">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#f7f9fe">
+  <meta name="google-site-verification" content="2XppPbtAE7GoeKIiO9XmzT57ar0gqtI355urWFTTEQI">
+  <meta name="description" content="window.TWIKOO_MAGIC_PATH&amp;#x3D;&amp;quot;&amp;#x2F;message&amp;#x2F;&amp;quot;">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <meta name="google-site-verification" content="google749fbf2e70b627f8">
+  <meta name="baidu-site-verification" content="codeva-Y1dUDmJ3Jg">
+  <link rel="stylesheet" href="index.css?v=4.11.0">
+  <link rel="stylesheet" href="https://cdnjs.guole.fun/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.guole.fun/ajax/libs/node-snackbar/0.1.16/snackbar.min.css" media="print"
+    onload='this.media="all"'>
+  <link rel="stylesheet" href="color.css" onload='this.media="all"'>
+  <link rel="stylesheet" href="Blog.css" onload='this.media="all"'>
+  <link rel="stylesheet" href="//jsd.guole.fun/npm/aplayer@1.10.1/dist/APlayer.min.css" onload='this.media="all"'>
+  <link rel="stylesheet" href="//cdnjs.guole.fun/ajax/libs/Swiper/11.0.4/swiper-bundle.min.css"
+    onload='this.media="all"'>
+  <link rel="stylesheet" href="//at.alicdn.com/t/c/font_2676490_pr5go428sfp.css" onload='this.media="all"'>
+  <style>
+    .icon {
+      width: 5em;
+      height: 5em;
+      vertical-align: -0.15em;
+      fill: currentColor;
+      overflow: hidden;
+    }
+
+    .icon-info {
+      width: 1.5em;
+      height: 1.5em;
+      vertical-align: -0.15em;
+      fill: currentColor;
+      overflow: hidden;
+    }
+  </style>
+  <style>
+    #toggle-sidebar {
+      bottom: 80px
+    }
+
+    div.aside-list-item .content .title {
+      color: #4b658a;
+      font-weight: 700
+    }
+
+    div.aside-list-item .content .title:hover {
+      color: #49b1f5;
+      font-weight: 700
+    }
+  </style>
+  <style>
+    .app-refresh {
+      position: fixed;
+      top: -24px;
+      left: 0;
+      right: 0;
+      z-index: 99999;
+      padding: 0 20px;
+      font-size: 15px;
+      height: 24px;
+      transition: all .3s ease
+    }
+
+    .app-refresh-wrap {
+      display: flex;
+      color: #fff;
+      height: 100%;
+      align-items: center;
+      justify-content: center
+    }
+
+    .app-refresh-wrap a {
+      color: #fff;
+      text-decoration: underline;
+      cursor: pointer
+    }
+  </style>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
 </head>
 
 <body>
-  <div class="main">
-    <div class="container">
-      <div class="section introduction">
-        <div class="contain">
-          <img src="../assets/images/avatar.jpg" alt="user.jpg" class="user-img">
-          <div class="content-introduction">
-            <p class="title">你好，我是落</p>
-            <p class="sub-title">一位妄想成为大佬的菜鸟</p>
+  <div class="page" id="body-wrap">
+    <main class="layout hide-aside" id="content-inner">
+      <div id="page">
+        <h1 class="page-title">关于我</h1>
+        <div id="about-page">
+          <div class="author-info">
+            <div class="author-tag-left"><span class="author-tag">编程算法爱好者</span><span class="author-tag">🤖️
+                数码科技爱好者</span><span class="author-tag">😱 从不挑剔的食客</span><span class="author-tag">📕 知识学习不停歇</span></div>
+            <div class="author-img"><img class="entered loaded" src="./avatar.png" style="width:100%;height:100%">
+            </div>
+            <div class="author-tag-right"><span class="author-tag">做一枚白昼的月亮 🌖</span> <span class="author-tag">世间风景拍摄大师
+                📸</span><span class="author-tag">雨中漫步滋味长 🌦️</span><span class="author-tag">向往自由 🕊️</span></div>
           </div>
-          <a href="#" class="down-link"><img src="../assets/images/about/down.gif" alt="down.gif" class="down-img"></a>
-        </div>
-      </div>
-      <div class="section skill">
-        <div class="contain">
-          <div class="skill-pane">
-            <h1 class="skill-title">技术栈</h1>
-            <table class="skill-t">
-              <tr>
-                <td class="skill-table">
-                  <p class="title" align="content">前端</p>
-                </td>
+          <div class="author-title">关于我</div>
+          <div class="author-content">
+            <div class="author-content-item myInfoAndSayHello">
+              <div class="title1">你好，很高兴遇到你</div>
+              <div class="title2">我是<span class="inline-word">落</span></div>
+              <div class="title1">一位本科生，<span class="inline-word">梦想是成为卷王</span></div>
+            </div>
+            <div class="aboutsiteTips author-content-item">
+              <div class="author-content-item-tips">追求</div>
+              <h2>源于<br>热爱而去<span class="inline-word">追求</span>
+                <div class="mask"><span class="first-tips" data-show>极限尤可突破</span><span>至臻亦不可止</span></div>
+              </h2>
+            </div>
+          </div>
+          <div class="author-content">
+            <div class="author-content-item skills">
+              <div class="card-content">
+                <div class="author-content-item-tips">技术栈</div><span class="author-content-item-title">成为卷王</span>
+                <div class="skills-style-group">
+                  <div class="tags-group-all">
+                    <div class="tags-group-wrapper">
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-CSS"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-html"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-JavaScriptdaima"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-vue3"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-AutoCAD"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-solidworks"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-OPenCV"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-linux"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-Cyuyan-copy"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-cpp"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-java"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-python"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-github"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-gitee"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-unity"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-csharp"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-matlab"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-yolo"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-controller"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-zidongkongzhi"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-robot"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-robot1"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-cmake"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-makefile"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-CSS"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-html"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-JavaScriptdaima"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-vue3"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-AutoCAD"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-solidworks"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-OPenCV"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-linux"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-Cyuyan-copy"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-cpp"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-java"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-python"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-github"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-gitee"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-unity"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-csharp"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-matlab"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-yolo"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-controller"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-zidongkongzhi"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-robot"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-robot1"></use>
+                          </svg></div>
+                      </div>
+                      <div class="tags-group-icon-pair">
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-cmake"></use>
+                          </svg></div>
+                        <div class="tags-group-icon" style="background:#ffffff"><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-makefile"></use>
+                          </svg></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills-list">
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-CSS"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>CSS</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-html"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>html</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-git"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>git</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-stmchengxukaifa"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>单片机</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-yolo"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>yolo</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-AutoCAD"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>AutoCAD</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-robot"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>ros1</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-controller"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>Control</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-robot1"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>ros2</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-OPenCV"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>OPenCV</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-Cyuyan-copy"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>C</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-linux"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>linux</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-java"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>Java</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-unity"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>unity</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-cmake"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>cmake</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-cpp"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>Cpp</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-csharp"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>CSharp</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-makefile"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>makefile</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-matlab"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>matlab</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-vue3"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>vue3</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-JavaScriptdaima"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>JavaScript</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-solidworks"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>solidworks</span></div>
+                    </div>
 
-                <td class="skill-table">
-                  <span class="text_skill">HTML5</span>
-                  <span class="text_skill">CSS3</span>
-                  <span class="text_skill">ECMAScript6</span>
-                  <span class="text_skill">JavaScript</span>
-                  <span class="text_skill">Vue3</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="skill-table">
-                  <p class="title" align="content">编程语言</p>
-                </td>
-                <td class="skill-table">
-                  <span class="text_skill">C</span>
-                  <span class="text_skill">C++</span>
-                  <span class="text_skill">C#</span>
-                  <span class="text_skill">Java</span>
-                  <span class="text_skill">Python</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="skill-table">
-                  <p class="title" align="content">嵌入式</p>
-                </td>
-                <td class="skill-table">
-                  <span class="text_skill">stm32f4</span>
-                  <span class="text_skill">stm32h7</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="skill-table">
-                  <p class="title" align="content">游戏制作</p>
-                </td>
-                <td class="skill-table">
-                  <span class="text_skill">Unity</span>
-                  <span class="text_skill">C#</span>
-                  <span class="text_skill">MySQL</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="skill-table">
-                  <p class="title" align="content">控制</p>
-                </td>
-                <td class="skill-table">
-                  <span class="text_skill">现代控制</span>
-                  <span class="text_skill">最优控制</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="skill-table">
-                  <p class="title" align="content">计算机</p>
-                </td>
-                <td class="skill-table">
-                  <span class="text_skill">linux</span>
-                  <span class="text_skill">操作系统</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="skill-table">
-                  <p class="title" align="content">图像处理</p>
-                </td>
-                <td class="skill-table">
-                  <span class="text_skill">opencv</span>
-                  <span class="text_skill">yolov5</span>
-                  <span class="text_skill">openmv</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="skill-table">
-                  <p class="title" align="content">机器人</p>
-                </td>
-                <td class="skill-table">
-                  <span class="text_skill">ros</span>
-                  <span class="text_skill">ros2</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="skill-table">
-                  <p class="title" align="content">设计建模</p>
-                </td>
-                <td class="skill-table">
-                  <span class="text_skill">AutoCad</span>
-                  <span class="text_skill">SolidWorks</span>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <!-- <img src="../assets/images/about/skill-font.png" alt="skill-font" class="skill-font"> -->
-          <a href="#" class="down-link"><img src="../assets/images/about/down.gif" alt="down.gif" class="down-img"></a>
-        </div>
-      </div>
-      <div class="section time-line">
-        <div class="contain">
-          <ul class="time-ul">
-            <li>
-              <div class="time-card">
-                <p class="title">2021</p>
-                <p class="text">人生中第一次接触编程</p>
-                <p class="text">C语言成了我的编程启蒙语言</p>
-                <p class="text">后也被Python的简洁而吸引</p>
-              </div>
-            </li>
-            <li>
-              <div class="time-card">
-                <p class="title">2022</p>
-                <p class="text">有幸进入机器人队</p>
-                <p class="text">开始我的编程学习之旅</p>
-                <p class="text">学习C++，Java等语言</p>
-                <p class="text">做leetcode</p>
-              </div>
-            </li>
-            <li>
-              <div class="time-card">
-                <p class="title">2023-future</p>
-                <p class="text">目前还在机器人队</p>
-                <p class="text">学习控制，自动化的知识</p>
-                <p class="text">自己的就业期望也从计算机转到了机器人</p>
-                <p class="text">未来，充满希望</p>
-              </div>
-            </li>
-          </ul>
-          <a href="#" class="down-link"><img src="../assets/images/about/down.gif" alt="down.gif" class="down-img"></a>
-        </div>
-      </div>
-      <div class="section hobby">
-        <div class="contain">
-          <div class="hobby-card left">
-            <img src="../assets/images/about/3.jpg" alt="猫猫" class="art">
-            <p class="title">Project</p>
-            <p class="sub-title">机器人/控制</p>
-            <p class="text-hobby">双轮足式机器人</p>
-            <p class="text-hobby">四足机器人</p>
-            <p class="text-hobby">...</p>
-          </div>
-          <div class="hobby-card mid">
-            <img src="../assets/images/about/2.jpg" alt="猫猫" class="art">
-            <p class="title">GAME</p>
-            <p class="sub-title">游戏/单机</p>
-            <p class="text-hobby">喜欢玩的《Minecraft》</p>
-            <p class="text-hobby">正在玩的《noita》</p>
-            <p class="text-hobby">有做过游戏demo</p>
-          </div>
-          <div class="hobby-card right">
-            <img src="../assets/images/about/1.jpg" alt="猫猫" class="art">
-            <p class="title">Music</p>
-            <p class="sub-title">华语/纯音乐</p>
-            <p class="text-hobby">喜欢听的《纸短情长》</p>
-            <p class="text-hobby">《故乡的原风景》</p>
-            <p class="text-hobby">...</p>
-          </div>
-          <a href="#" class="down-link"><img src="../assets/images/about/down.gif" alt="down.gif" class="down-img"></a>
-        </div>
-      </div>
-      <div class="section contact">
-        <div class="contain">
-          <p class="title">交个朋友吧</p>
-          <div class="contact-pane" align="center">
-            <div class="contact-item">
-              <a href="https://github.com/C25177" target="_blank">
-                <span href="#" class="icon iconfont">&#xe651;</span>
-              </a>
-              <div class="name">GitHub</div>
-            </div>
-            <div class="contact-item">
-              <a href="https://gitee.com/C25177" target="_blank">
-                <span href="#" class="icon iconfont">&#xe686;</span>
-              </a>
-              <div class="name">Gitee</div>
-            </div>
-            <div class="contact-item">
-              <span class="icon iconfont" id="showQQ">&#xe882;</span>
-              <div class="name">QQ</div>
-              <div id="qqma">
-                <img src="../assets/images/qq.jpg">
-              </div>
-            </div>
-            <div class="contact-item">
-              <span class="icon iconfont" id="showWC">&#xf0106;</span>
-              <div class="name">WeChat</div>
-              <div id="wcma">
-                <img src="../assets/images/wechat.png">
-              </div>
-            </div>
-          </div>
-          <div class="footer">
-            <p class="copy">COPYRIGHT © 2024-2024 落</p>
-            <p class="copy">
-              <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2024056598号-1</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-python"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>Python</span></div>
+                    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-Mysql"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>Mysql</span></div>
+                    </div>
 
-    <div class="controls">
-      <ul>
-        <li class="active"></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
+                    <div class="skill-info">
+                      <div class="skill-icon" style="background:#ffffff00"><svg class="icon-info" aria-hidden="true">
+                          <use xlink:href="#icon-zidongkongzhi"></use>
+                        </svg></div>
+                      <div class="skill-name"><span>Automate</span></div>
+                    </div>
+                    <div class="etc">…</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="author-content-item careers">
+              <div class="card-content">
+                <div class="author-content-item-tips">不断进步</div><span class="author-content-item-title">项目</span>
+                <div class="careers-group">
+                  <div class="careers-item">
+                    <div class="circle" style="background:#357ef5"></div>
+                    <div class="name">四足机器人</div>
+                  </div>
+                  <div class="careers-item">
+                    <div class="circle" style="background:#eb372a"></div>
+                    <div class="name">双轮足式机器人</div>
+                  </div><img class="author-content-img entered loading nolazyload" src="./13.jpg" alt="街角">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="author-content">
+            <div class="author-content-item myphoto"><img class="author-content-img entered loading nolazyload"
+                src="/about/11.jpg" alt="自拍"></div>
+            <div class="author-content-item personalities">
+              <div class="author-content-item-tips">性格</div><span class="author-content-item-title">鉴赏家</span>
+              <div class="title2" style="color:#56a178">ISTP-A</div>
+              <div class="image"><img class="entered loading nolazyload" src="/about/istp.png" alt="ISTP鉴赏家"></div>
+              <div class="post-tips">在&nbsp;<a href="https://www.16personalities.com/ch/"
+                  rel="noopener external nofollow" target="_blank">16personalities</a>&nbsp;了解更多
+                <br>
+                <a href="https://www.16personalities.com/ch/istp-%E4%BA%BA%E6%A0%BC" rel="noopener external nofollow"
+                  target="_blank">鉴赏家</a>
+              </div>
+            </div>
+          </div>
+          <div class="author-content">
+            <div class="author-content-item motto-yrus">
+              <div class="card-content">
+                <div class="author-content-item-tips">座右铭</div>
+                <span class="author-content-item-title">流浪的人未必都迷茫</span>
+                <div class="content-bottom">
+                </div>
+              </div>
+            </div>
+            <div class="author-content-item motto-whve">
+              <div class="card-content">
+                <div class="author-content-item-tips">特长</div>
+                <span class="author-content-item-title">写一段有用但丑陋的代码</span>
+                <div class="content-bottom">
+                  <div class="icon-group"><i></i></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="author-content">
+            <div class="author-content-item game-whve">
+              <div class="card-content">
+                <div class="author-content-item-tips">爱好游戏</div><span class="author-content-item-title">我的世界</span>
+                <div class="content-bottom">
+                  <div class="tips">Steve</div>
+                </div>
+              </div>
+            </div>
+            <div class="author-content-item game-yrus">
+              <div class="card-content">
+                <div class="author-content-item-tips">想玩游戏</div><span class="author-content-item-title">Noita</span>
+                <div class="content-bottom">
+                  <div class="tips">法术编程</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="author-content">
+            <div class="author-content-item like-technology">
+              <div class="card-content">
+                <div class="author-content-item-tips">兴趣偏好</div><span class="author-content-item-title">算法&开发</span>
+                <div class="content-bottom">
+                  <div class="tips">游戏开发，算法</div>
+                </div>
+              </div>
+            </div>
+            <div class="author-content-item like-music">
+              <div class="card-content">
+                <div class="author-content-item-tips">音乐偏好</div><span
+                  class="author-content-item-title">民谣<br></span><span class="author-content-item-title">纯音乐</span>
+                <div class="content-bottom">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="author-content">
+            <!-- <div class="about-statistic author-content-item">
+              <div class="card-content">
+                <div class="author-content-item-tips">网站数据</div><span class="author-content-item-title">访问统计</span>
+                <div id="statistic"></div>
+                <div class="post-tips" style="opacity:.6">* 数据来自：<a href="https://v6.51.la/"
+                    rel="noopener external nofollow" target="_blank">51.LA 网站统计</a></div>
+              </div>
+            </div> -->
+            <div class="author-content-item-group column mapAndInfo">
+              <div class="author-content-item map single"><span class="map-title">我在 <b>中国，武汉</b></span></div>
+              <div class="author-content-item selfInfo single">
+                <div class="d">
+                  <div class="selfInfo-title">出生于</div><span class="selfInfo-content" style="color:#43a6c6">2002</span>
+                </div>
+                <div class="d">
+                  <div class="selfInfo-title">我的家乡</div><span class="selfInfo-content" style="color:#c69043">中国 ·
+                    河南</span>
+                </div>
+                <div class="d">
+                  <div class="selfInfo-title">当前职业</div><span class="selfInfo-content" style="color:#b04fe6">大学牲</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="author-content">
+            <div class="author-content-item like" style="width:100%">
+              <div class="author-content-item-tips">建站说明</div>
+              <span class="author-content-item-title">为什么要建立站点<br></span>
+              <div class="content">
+                <div class="tips">
+                  <p>
+                    一次偶然的机会，在知乎上看到一篇提问，是“你见过最好的你见过最好的网页设计是哪一个”，其中有一个回答就是基于《Notion》和《github》上一个开源的项目，将自己的笔记发布到博客上。当时就下定决心打算等到大四做一个自己的网站，但是我又看到了一个做科研的大佬的博客，做的很好，上面也上传了很多项目，对我帮助很大。于是我就没等到大四就开始着手建站了，把自己学习的一些笔记和心得发布在博客上，也算是为开源事业做一些贡献了。
+                  </p>
+                </div>
+                <div class="tips">
+                  <p>
+                    本站点内有两个网站：主站（ButterFly）和分站（NexT），两个网站上的内容是一致的，只是为了提供一个不一样的阅读体验。当然由于我的前端技术太拉，所以效果做的不是很好，这个网站将会不断更新和优化的。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="author-content">
+            <div class="author-content-item like" style="width:100%">
+              <div class="author-content-item-tips">特别感谢</div>
+              <div class="content">
+                <div class="tips">这个关于我的格式是根据洪哥的博客做的，实际上就是直接把洪哥做出来的页面的源码拷过来，基于源码做了一些修改。更好的效果可以看看洪哥的博客</div>
+                <a href="https://blog.zhheo.com" target="_blank">张洪Heo</a>
+              </div>
+            </div>
+          </div>
+          <div class="author-content">
+            <div class="author-content-item like" style="width:100%">
+              <div class="author-content-item-tips" id="disclaimerStatement">免责声明</div>
+              <div class="content-bottom">
+                <div class="tips">文章内容如有侵权，请联系邮箱说明</div>
+              </div>
+            </div>
+          </div>
+          <script>var pursuitInterval = null; pursuitInterval = setInterval((function () { const e = document.querySelector("span[data-show]"), t = e.nextElementSibling || document.querySelector(".first-tips"), n = document.querySelector("span[data-up]"); n && n.removeAttribute("data-up"), e.removeAttribute("data-show"), e.setAttribute("data-up", ""), t.setAttribute("data-show", "") }), 2e3), document.addEventListener("pjax:send", (function () { clearInterval(pursuitInterval) })), document.addEventListener("pjax:send", (function () { clearInterval(pursuitInterval) })), fetch("https://v6-widget.51.la/v6/3EnEXcYw1TlCl966/quote.js").then((e => e.text())).then((e => { let t = ["最近活跃", "今日人数", "今日访问", "昨日人数", "昨日访问", "本月访问", "总访问量"], n = e.match(/(<\/span><span>).*?(\/span><\/p>)/g); n = n.map((e => e.replace(/(<\/span><span>)/g, "").replace(/(<\/span><\/p>)/g, ""))); let a = document.getElementById("statistic"); for (let e = 0; e < n.length; e++)0 != e && e != n.length - 1 && (a.innerHTML += "<div><span>" + t[e] + "</span><span id=" + t[e] + ">" + n[e] + "</span></div>") })); var elements = document.querySelectorAll("#page .flink .flink-item-money"); elements.forEach((e => { parseFloat(e.getAttribute("data-value")) > 10 && (e.style.background = "var(--zanshang-vip-money)") }))</script>
+          <script async data-pjax src="/js/random_color.js"></script>
+        </div>
+        <hr class="custom-hr">
+      </div>
+    </main>
+    <footer id="footer">
+      <div id="footer-bar">
+        <div class="footer-bar-links">
+          <div class="footer-bar-left">
+            <div id="footer-bar-tips">
+              <div class="copyright">©2024-2024 By <a class="footer-bar-link" target="_blank" href="/about">落<i
+                    class="fa fas fa-heart" id="heartbeat"></i></a></div>
+            </div>
+          </div>
+          <div class="footer-bar-right">
+            <a class="footer-bar-link" href="https://beian.miit.gov.cn/#/Integrated/index"
+              rel="noopener external nofollow" target="_blank">粤 ICP 备 2021063163 号</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
-  <script src="../assets/js/about.js"></script>
-  <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-    crossorigin="anonymous"></script>
-  <script>
-    $(function () {
-      $("#showQQ").click(function () {
-        $("#qqma").fadeIn("slow");
-      });
-
-      $("#qqma").click(function () {
-        $("#qqma").fadeOut("slow");
-      })
-    });
-    $(function () {
-      $("#showWC").click(function () {
-        $("#wcma").fadeIn("slow");
-      });
-
-      $("#wcma").click(function () {
-        $("#wcma").fadeOut("slow");
-      })
-    });  </script>
+  <div class="needEndHide" id="nav-music" onclick="guole.musicToggle()">
+    <div id="nav-music-hoverTips">音乐已暂停</div><meting-js id="312821716" server="netease" type="playlist" mutex="true"
+      preload="none" theme="var(--guole-main)" data-lrctype="0" order="random"></meting-js>
+  </div>
+  <script src="./icon/iconfont.js"></script>
 </body>
 
 </html>
