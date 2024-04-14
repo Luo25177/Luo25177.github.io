@@ -352,8 +352,6 @@ body {
 .custom-hr:before,
 .search-dialog hr:before {
   color: var(--guole-hr);
-  content: '\f5e4';
-  top: -20px;
 }
 
 canvas {
@@ -6004,7 +6002,7 @@ table th:last-child {
   height: 36px;
   position: relative;
   overflow: hidden;
-  margin-top: 4px
+  margin-top: 4px;
 }
 
 .aboutsiteTips .mask span {
