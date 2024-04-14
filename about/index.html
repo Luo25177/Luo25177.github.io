@@ -617,8 +617,6 @@
               </div>
             </div>
           </div>
-          <script>var pursuitInterval = null; pursuitInterval = setInterval((function () { const e = document.querySelector("span[data-show]"), t = e.nextElementSibling || document.querySelector(".first-tips"), n = document.querySelector("span[data-up]"); n && n.removeAttribute("data-up"), e.removeAttribute("data-show"), e.setAttribute("data-up", ""), t.setAttribute("data-show", "") }), 2e3), document.addEventListener("pjax:send", (function () { clearInterval(pursuitInterval) })), document.addEventListener("pjax:send", (function () { clearInterval(pursuitInterval) })), fetch("https://v6-widget.51.la/v6/3EnEXcYw1TlCl966/quote.js").then((e => e.text())).then((e => { let t = ["最近活跃", "今日人数", "今日访问", "昨日人数", "昨日访问", "本月访问", "总访问量"], n = e.match(/(<\/span><span>).*?(\/span><\/p>)/g); n = n.map((e => e.replace(/(<\/span><span>)/g, "").replace(/(<\/span><\/p>)/g, ""))); let a = document.getElementById("statistic"); for (let e = 0; e < n.length; e++)0 != e && e != n.length - 1 && (a.innerHTML += "<div><span>" + t[e] + "</span><span id=" + t[e] + ">" + n[e] + "</span></div>") })); var elements = document.querySelectorAll("#page .flink .flink-item-money"); elements.forEach((e => { parseFloat(e.getAttribute("data-value")) > 10 && (e.style.background = "var(--zanshang-vip-money)") }))</script>
-          <script async data-pjax src="/js/random_color.js"></script>
         </div>
         <hr class="custom-hr">
       </div>
