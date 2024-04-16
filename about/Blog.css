@@ -351,6 +351,7 @@ body {
 #article-container hr:before,
 .custom-hr:before,
 .search-dialog hr:before {
+  display: none;
   color: var(--guole-hr);
 }
 
