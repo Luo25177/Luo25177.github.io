@@ -11,7 +11,7 @@ document.oncontextmenu = function () {
   if (!(ipad || iphone || midp || uc7 || uc || android || windowsce || windowsmd)) {
     showNotification("为了有更好的体验，本站禁用右键", 1000);
   }
-  // return false;
+  return false;
 };
 
 function showNotification(message, duration) {
