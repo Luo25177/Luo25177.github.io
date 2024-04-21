@@ -5,18 +5,18 @@
   user-select: none;
 }
 
+/* @media screen and (min-width:1000) { */
 .notification {
   position: fixed;
   top: 5%;
   left: 50%;
-  height: 65px;
   transform: translate(-50%, 0);
   padding: 15px;
   font-size: 20px;
   background-color: #f0f0f0;
   color: #333;
   border: 1px solid #ccc;
-  border-radius: 32.5px;
+  border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 9999;
   opacity: 1;
@@ -26,3 +26,5 @@
 .notification:hover {
   opacity: 0.8;
 }
+
+/* } */
