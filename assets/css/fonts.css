@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'sanjiquwei';
+  font-display: swap;
+  src: url('../fonts/SanJiQuWeiGuangGaoTi-Regular-2.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'FiraCodeMedium';
+  font-display: swap;
+  src: url('../fonts/Fira\ Code\ Medium\ 500.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'kalam';
+  font-display: swap;
+  src: url('../fonts/Kalam-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'MeriendaOne';
+  font-display: swap;
+  src: url('../fonts/MeriendaOne-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'pangmenzhengdao';
+  font-display: swap;
+  src: url('../fonts/pangmenzhengdao.ttf') format("truetype");
+}
