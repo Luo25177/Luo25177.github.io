@@ -628,8 +628,15 @@
         <div class="footer-bar-links">
           <div class="footer-bar-left">
             <div id="footer-bar-tips">
-              <div class="copyright">©2024-2024 By <a class="footer-bar-link" target="_blank" href="/about">落<i
-                    class="fa fas fa-heart" id="heartbeat"></i></a></div>
+              <!-- <div class="copyright">©2024-2025 By <a class="footer-bar-link" target="_blank" href="/about">落<i
+                    class="fa fas fa-heart" id="heartbeat"></i></a></div> -->
+              <div class="copyright">
+                <script>
+                  var mydate = new Date();
+                  document.writeln("&nbsp;&copy;&nbsp;2024 - " + mydate.getFullYear());
+                  document.writeln("<a class='footer - bar - link' target='_blank' href=' / about'>By 落<i class='fa fas fa - heart' id = 'heartbeat'></i></a> ");
+                </script>
+              </div>
             </div>
           </div>
           <div class="footer-bar-right">
