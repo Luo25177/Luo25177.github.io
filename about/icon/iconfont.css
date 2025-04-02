@@ -1,6 +1,7 @@
 @font-face {
-  font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1713009012501') format('truetype');
+  font-family: "iconfont";
+  src: url('iconfont.ttf?t=1713009012501') format('truetype'),
+    url('iconfont.ttf?t=1743580319245') format('truetype');
 }
 
 .iconfont {
@@ -135,3 +136,10 @@
   content: "\e521";
 }
 
+.icon-learnjiqixuexi:before {
+  content: "\e70b";
+}
+
+.icon-shenjingwangluo:before {
+  content: "\e760";
+}

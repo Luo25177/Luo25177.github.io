@@ -221,6 +221,21 @@
       "font_class": "zidongkongzhi",
       "unicode": "e521",
       "unicode_decimal": 58657
+    },
+    {
+      "icon_id": "13592813",
+      "name": "learn 机器学习",
+      "font_class": "learnjiqixuexi",
+      "unicode": "e70b",
+      "unicode_decimal": 59147
+    },
+    {
+      "icon_id": "25495507",
+      "name": "神经网络",
+      "font_class": "shenjingwangluo",
+      "unicode": "e760",
+      "unicode_decimal": 59232
     }
   ]
+
 }
