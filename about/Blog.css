@@ -6266,7 +6266,7 @@ video.author-content-video {
 
 .author-content-item.motto-whve {
   width: 39%;
-  background-color: rgb(0, 0, 0);
+  background: url(./motto-whve.jpg) no-repeat top;
   background-size: cover;
   min-height: 200px;
   overflow: hidden;
