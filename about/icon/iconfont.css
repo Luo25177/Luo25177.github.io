@@ -1,7 +1,8 @@
 @font-face {
   font-family: "iconfont";
   src: url('iconfont.ttf?t=1713009012501') format('truetype'),
-    url('iconfont.ttf?t=1743580319245') format('truetype');
+    url('iconfont.ttf?t=1743580319245') format('truetype'),
+    url('iconfont.ttf?t=1743689859970') format('truetype');
 }
 
 .iconfont {
@@ -142,4 +143,16 @@
 
 .icon-shenjingwangluo:before {
   content: "\e760";
+}
+
+.icon-c_gery:before {
+  content: "\e619";
+}
+
+.icon-c-original:before {
+  content: "\e601";
+}
+
+.icon-a-c:before {
+  content: "\e6e1";
 }

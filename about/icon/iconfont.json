@@ -235,6 +235,27 @@
       "font_class": "shenjingwangluo",
       "unicode": "e760",
       "unicode_decimal": 59232
+    },
+    {
+      "icon_id": "21939482",
+      "name": "c++_gery",
+      "font_class": "c_gery",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "28952731",
+      "name": "c language",
+      "font_class": "c-original",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "32161245",
+      "name": "c#",
+      "font_class": "a-c",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
     }
   ]
 
