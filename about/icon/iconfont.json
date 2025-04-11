@@ -256,6 +256,20 @@
       "font_class": "a-c",
       "unicode": "e6e1",
       "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "24880396",
+      "name": "opt_NODE_ADAMS-258",
+      "font_class": "opt_NODE_ADAMS-258",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "26153202",
+      "name": "ansys",
+      "font_class": "ansys",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
     }
   ]
 

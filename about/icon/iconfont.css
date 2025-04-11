@@ -2,7 +2,8 @@
   font-family: "iconfont";
   src: url('iconfont.ttf?t=1713009012501') format('truetype'),
     url('iconfont.ttf?t=1743580319245') format('truetype'),
-    url('iconfont.ttf?t=1743689859970') format('truetype');
+    url('iconfont.ttf?t=1743689859970') format('truetype'),
+    url('iconfont.ttf?t=1744366601510') format('truetype');
 }
 
 .iconfont {
@@ -155,4 +156,12 @@
 
 .icon-a-c:before {
   content: "\e6e1";
+}
+
+.icon-opt_NODE_ADAMS-258:before {
+  content: "\e6e1";
+}
+
+.icon-ansys:before {
+  content: "\e6b2";
 }
