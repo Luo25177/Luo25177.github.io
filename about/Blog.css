@@ -5747,7 +5747,7 @@ table th:last-child {
 }
 
 .author-content-item.careers {
-  min-height: 400px
+  min-height: 550px;
 }
 
 .author-content-item.careers img {
@@ -5901,7 +5901,7 @@ table th:last-child {
   align-items: flex-start;
   flex-direction: column;
   width: 49%;
-  min-height: 500px
+  min-height: 550px;
 }
 
 .author-content-item.skills .tags-group-all {
